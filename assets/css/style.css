@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(../images/full-bloom.png);
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height:45px;
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-bottom: 25px;
+    background-color: #ffffff; 
+    border-style: ridge;
+    border-color: #dddddd;
+    border-width: 1px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    width: 380px;
+    background-color: #4aaaa5;
+    position: relative;
+    color: #ffff;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-left: 20%;
+    bottom: -22%;
+}
+
+h2{
+    border-bottom: solid;
+    border-color: #dddddd;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 70px;
+    top: -35px;
+    position: relative;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #666666;
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: 5px;
+}
+
+#container{
+    background-color: #ffffff;
+    border-style: ridge;
+    border-color: #dddddd;
+    border-width: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    line-height: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
+    color: #777777; 
+    position: relative;
+    width: auto;
+}
+
+#profilepic{
+    float: left;
+    padding: 20px;
+}
+
+.nav{
+    float: right;
+    padding: 20px;
+    position: relative;
+    top: -195%;
+    left: -20%;
+}
+
+#aboutlink, #portfoliolink, #contactlink{
+    color: #777777; 
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#copyright{
+    color: #ffffff;
+    margin-left: 50%;
+    top: 50%;
+    position: relative;
+    font-size: 75%;
+    
+}
+
+#container2{
+    background-color: #ffffff;
+    border-style: ridge;
+    border-color: #dddddd;
+    border-width: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 10px;
+    padding: 20px;
+    color: #777777; 
+    width: 62%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
+
+#namebox, #emailbox, #messagebox{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#messagebox{
+    resize: none;
+}
+
+.portfoliocontent{
+    width: 200px;
+    height: 200px; 
+    padding: 2%;
+    position: relative;
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5{
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    width: 200px;
+    bottom: 58px;
+    background-color: #4aaaa5;
+    color: #ffff;
+    margin-left: 5px;
+}
+
+.holder{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+
+#button{
+    background-color: #4aaaa5;
+    color: #dddddd;
+    width: 80px;
+    height: 40px;
+}
+
+@media screen and (max-width: 980px){
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        width: 380px;
+        background-color: #4aaaa5;
+        position: relative;
+        color: #ffff;
+        margin: 0 auto;
+        padding: 10px 0;
+        margin-left: 6%;
+        bottom: -22%;
+    }
+
+    .nav {
+        padding: 20px;
+        position: relative;
+        top: -129%;
+        left: -5%;
+    }
+
+    .header{
+        position: static;
+    }
+
+    #container {
+        background-color: #ffffff;
+        border-style: ridge;
+        border-color: #dddddd;
+        border-width: 1px;
+        margin-left: 6%;
+        margin-right: 32%;
+        margin-bottom: 10%;
+        line-height: 30px;
+        padding: 20px;
+        padding-bottom: 40px;
+        color: #777777;
+        position: relative;
+        width: auto;
+    }
+
+    #container2 {
+        background-color: #ffffff;
+        border-style: ridge;
+        border-color: #dddddd;
+        border-width: 1px;
+        margin-left: 6%;
+        margin-right: 15%;
+        line-height: 10px;
+        padding: 20px;
+        color: #777777;
+        width: 66%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header {
+        position: static;
+    }
+    
+    #container {
+        background-color: #ffffff;
+        border-style: ridge;
+        border-color: #dddddd;
+        border-width: 1px;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 10%;
+        line-height: 30px;
+        padding: 20px;
+        padding-bottom: 40px;
+        color: #777777;
+        position: relative;
+        width: auto;
+    }
+
+    #container2 {
+        background-color: #ffffff;
+        border-style: ridge;
+        border-color: #dddddd;
+        border-width: 1px;
+        margin-left: 6%;
+        margin-right: 15%;
+        line-height: 10px;
+        padding: 20px;
+        color: #777777;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .header {
+        position: static;
+        width: 640px;
+    }
+    
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        width: 380px;
+        background-color: #4aaaa5;
+        position: relative;
+        color: #ffff;
+        margin: 0 auto;
+        padding: 10px 0;
+        margin-left: 30%;
+        bottom: -22%;
+    }
+
+    .nav {
+        padding: 20px;
+        position: relative;
+        top: -65%;
+        left: -34%;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        width: 640px;
+        background-color: #4aaaa5;
+        position: relative;
+        color: #ffff;
+        margin: 0 auto;
+        padding: 10px 0;
+        margin-left: 0%;
+        bottom: 45%;
+    }
+
+    #messagebox {
+        resize: none;
+        width: 532px;
+    }
+
+    #emailbox {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 530px;
+    }
+
+    #namebox {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 530px;
+    }
+
+}   
+
+
