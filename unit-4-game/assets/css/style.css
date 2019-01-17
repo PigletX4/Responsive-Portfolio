@@ -1,0 +1,16 @@
+#body{
+    background-image: url(../images/backdrop.jpg);
+    background-color: aliceblue;
+}
+
+.crystals{
+    border-style: double;
+}
+
+.scoreboard{
+    font-size: x-large;
+    width: fit-content;
+    height: 100px;
+    border-style: double;
+    background-color: snow;
+}
