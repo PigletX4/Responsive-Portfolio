@@ -1,0 +1,20 @@
+#searchContainer {
+    float: right;
+    height: 800px;
+    width: 20%;
+    margin-top: 20px;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+#gifs {
+    width: 80%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.buttons{
+    width: 80%;
+}
+
