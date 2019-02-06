@@ -127,21 +127,22 @@ font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
 
-#pic1{   
+#pic1, #pic2{   
     position: relative;
-    font-size: 37px;
+    font-size: 27px;
+    left: 20px;
     text-align: center;
-    width: 200px;
+    width: 243px;
     bottom: 40px;
     background-color: #4aaaa5;
     color: #ffff;
     margin-left: 5px;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+}
 }
 
-#pic2, #pic3, #pic4, #pic5{
+#pic3, #pic4, #pic5{
     position: relative;
     font-size: 14px;
     text-align: center;
